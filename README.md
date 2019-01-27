@@ -1,3 +1,19 @@
+```
+git clone git@github.com:genagain/sampleproject.git repo-name
+rm -rf .git
+git init
+```
+
+Create a repository in github called `repo-name` in a web browser
+Do don't initialize with README.md, gitignore or a license
+
+```
+git add -A
+git commit "initial commit"
+git remote add origin git@github.com:genagain/repo-name.git
+git push -u origin master
+```
+
 # A sample Python project
 
 A sample project that exists as an aid to the [Python Packaging User
