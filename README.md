@@ -8,7 +8,7 @@ rm -rf .git
 git init
 ```
 
-Create a repository in github called `repo-name` in a web browser.
+Create a repository in Github called `repo-name` in a web browser.
 Don't initialize the repository with a README.md, gitignore or a license.
 
 Run the following commands to push the contents of your local copy of `repo-name` to the version on Github.
