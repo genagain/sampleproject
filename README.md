@@ -1,3 +1,25 @@
+I use this as a repository as a base repository for my Python projects. Because of this, I decided to add my own instructions to my forked version of the `sampleproject` repository for my own reference.
+
+The commands below clone my forked version of `sampleproject` into a repository called `repo-name`.
+
+```
+git clone git@github.com:genagain/sampleproject.git repo-name
+rm -rf .git
+git init
+```
+
+Create a repository in github called `repo-name` in a web browser.
+Don't initialize the repository with a README.md, gitignore or a license.
+
+Run the following commands to push the contents of your local copy of `repo-name` to the version on Github.
+
+```
+git add -A
+git commit "initial commit"
+git remote add origin git@github.com:genagain/repo-name.git
+git push -u origin master
+```
+
 # A sample Python project
 
 A sample project that exists as an aid to the [Python Packaging User
