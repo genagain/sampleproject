@@ -4,6 +4,7 @@ The commands below clone my forked version of `sampleproject` into a repository 
 
 ```
 git clone git@github.com:genagain/sampleproject.git repo-name
+cd repo-name
 rm -rf .git
 git init
 ```
