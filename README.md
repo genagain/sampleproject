@@ -16,7 +16,7 @@ Run the following commands to push the contents of your local copy of `repo-name
 
 ```
 git add -A
-git commit "initial commit"
+git commit -m "initial commit"
 git remote add origin git@github.com:genagain/repo-name.git
 git push -u origin master
 ```
